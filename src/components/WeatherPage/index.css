@@ -1,0 +1,70 @@
+/* Weather Page Styles */
+.weather-page {
+    width: 60%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 28px;
+    color:green;
+    margin-bottom: 20px;
+  }
+  
+  .weather-info {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  span {
+    color:red;
+    font-weight: 600;
+  }
+  
+  .weather-icon {
+    display: block;
+    margin: 20px auto;
+  }
+  .message{
+    text-align:center;
+    font-size:32px;
+    font-weight:bold;
+    margin-top:50px;
+  }
+  
+  /* Responsive Styles for WeatherPage */
+  @media (max-width: 1024px) {
+    .weather-page {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .weather-page {
+      width: 90%;
+    }
+  
+    .weather-info {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .weather-page {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .weather-info {
+      font-size: 14px;
+    }
+  }
+  
